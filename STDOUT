@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="24.939467">
+<testcase classname="Login into account" name="Login into account with correct details" time="24.939467">
+<system-out><![CDATA[Given User navigates to stackoverflow website...............................passed
+And User clicks on the login button on homepage.............................passed
+And User enters a valid username............................................passed
+And User enters a valid password............................................passed
+When User clicks on the login button........................................passed
+Then User should be taken to the successful login page......................passed
+When User clicks on the selector button.....................................passed
+And User clicks on the log out on model.....................................passed
+Then User should be taken to the successful log out page....................passed
+When User clicks on the Log out button......................................passed
+And User should be taken to the successful home page........................passed
+]]></system-out>
+</testcase>
+</testsuite>
